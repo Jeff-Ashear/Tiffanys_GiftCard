@@ -1,0 +1,30 @@
+.header {
+    background-color: darkgreen;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid darkred;
+    box-shadow: 3px, 3px, 3px;
+    text-align: center;
+    padding: 5vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  canvas {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .bodyContent {
+      z-index: 100;
+  }
+
+  .images {
+      height: 50vh;
+      width: auto;
+  }
