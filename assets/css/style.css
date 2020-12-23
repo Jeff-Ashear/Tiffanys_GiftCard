@@ -6,6 +6,7 @@
     box-shadow: 3px, 3px, 3px;
     text-align: center;
     padding: 5vh;
+    margin-bottom: -5px;
 }
 
 * {
@@ -13,18 +14,53 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  #container canvas, #overlay {
+      position: absolute;
+  }
+
+  #container {
+    position: relative; 
+  }
   
+
   canvas {
     display: block;
+    /* height: 800vh; */
     cursor: pointer;
-    z-index: 1;
   }
 
-  .bodyContent {
-      z-index: 100;
+  #overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* pointer-events: none; */
   }
+
+.contents {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
 
   .images {
-      height: 50vh;
-      width: auto;
+      width: 90vw;
+      height: auto;
+      padding: 3%;
+      margin-left:auto;
+      margin-right: auto;
+      background-color: white;
+      border: 7px solid darkred;
+      border-radius: 6px;
+  }
+  
+  .cards {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: white;
+    border: 7px solid darkgreen;
+    border-radius: 6px; 
   }
