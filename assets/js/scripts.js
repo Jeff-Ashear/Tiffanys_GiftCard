@@ -69,7 +69,7 @@ $('#wrenna1').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('#wrenna1').attr('src', './assets/images/wrenna1.jpg')
+         $('#wrenna1').attr('src', './assets/images/wrenna1.JPG')
       }, 2000);
    } else {
       confirm("You missed a present!")
@@ -117,7 +117,7 @@ $('#house1').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('#house1').attr('src', './assets/images/house1.jpg')
+         $('#house1').attr('src', './assets/images/house1.JPG')
       }, 2000);
 
       setTimeout(function() {
