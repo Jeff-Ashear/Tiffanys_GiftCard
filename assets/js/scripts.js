@@ -32,6 +32,7 @@ let clicked9 = false;
 // })
 
 $('#tiffAndWrenna').click(function () {
+   console.log('clicked Tiff and Wrenna')
    setTimeout(function () {
       $('#tiffAndWrenna').attr('src', './assets/images/tiffAndWrenna.jpg')
       // $('#audio1').append('<audio src="assets/audio/nice.m4a"></audio>')
