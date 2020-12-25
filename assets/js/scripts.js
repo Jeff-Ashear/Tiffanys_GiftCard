@@ -85,7 +85,7 @@ $('#jeffAndWrenna').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('#jeffAndWrenna').attr('src', './assets/images/jeffAndWrenna')
+         $('#jeffAndWrenna').attr('src', './assets/images/jeffAndWrenna.jpg')
       }, 2000);
    } else {
       confirm("You missed a present!")
@@ -94,28 +94,114 @@ $('#jeffAndWrenna').click(function() {
    clicked4 = true;
 });
 
+$('#frontWalk').click(function() {
+   if (clicked4 == true) {
+      setTimeout(function() {
+         $('#text5').text("And Queso loves you sooooooooooooooooooooooo much. Mew.")
+      }, 750);
 
+      setTimeout(function() {
+         $('#frontWalk').attr('src', './assets/images/frontWalk.jpg')
+      }, 2000)
+   } else {
+      confirm("You missed a present!")
+   }
 
+   clicked5 = true;
+});
 
+$('#house1').click(function() {
+   if (clicked5 == true){
+      setTimeout(function() {
+         $('#text6').text("Right now its cold outside")
+      }, 750);
 
+      setTimeout(function() {
+         $('#house1').attr('src', './assets/images/house1.jpg')
+      }, 2000);
 
+      setTimeout(function() {
+         $('#text7').text(`...and while it's very beautiful,`)
+      }, 2750);
+   } else {
+      confirm("You missed a present!")
+   }
 
+   clicked6 = true;
+});
+
+$('#garden1').click(function() {
+   if (clicked6 == true) {
+      setTimeout(function() {
+         $('#text8').text("soon it will be nice and warm.")
+      }, 750);
+
+      setTimeout(function() {
+         $('garden1').attr('src', './assets/images/garden1.JPG')
+      }, 2000)
+   } else {
+      confirm("You missed a present!")
+   }
+
+   clicked7 = true;
+});
 
 $('#jeffAndQueso').click(function () {
-   if (clicked1 == true) {
+   if (clicked7 == true) {
       setTimeout(function () {
-         $("#text2").text("We have a present for you!")
+         $("#text9").text("We have a present for you!")
       }, 750)
 
       setTimeout(function () {
          $('#jeffAndQueso').attr('src', 'assets/images/JeffQueso.jpg')
       }, 2000)
       setTimeout(function () {
-         $("#text3").text("Whaaaaat?")
+         $("#text10").text("Whaaaaat?")
       }, 2500)
    } else {
       confirm("You missed a present!")
    }
+
+   clicked8 = true;
+});
+
+$('#outsideTogether').click(function() {
+   if (clicked8 == true) {
+      setTimeout(function() {
+         $('#text11').text("Your family thinks you might like a trip to the nursery,")
+      }, 750);
+
+      setTimeout(function() {
+         $('#outsidedTogether').attr('src', './assets/images/outsideTogether.jpg')
+      }, 2000);
+
+      setTimeout(function() {
+         $('#text12').text("...whether it's in real life or on the internet.")
+      }, 2750);
+   } else {
+      confirm("You missed a present!")
+   }
+
+   clicked9 = true;
+});
+
+$('#giftCard').click(function() {
+   if (clicked9 = true) {
+      setTimeout(function() {
+         $('#text13').text("Here it is!  Yay!!! ")
+      }, 750);
+
+      setTimeout(function() {
+         $('#giftCard').attr('src', './assets/images/gift-flat.png')
+      }, 1500);
+
+      setTimeout(function() {
+         $('#text14').text("I here this place has great trees, and are experts at shipping them so they arrive alive and intact.")
+      }, 2250);
+
+      setTimeout(function() {
+         $('#fastTrees').attr('href', 'http://www.fast-growing-trees.com');
+         $('#fastTrees').text("Fast Growing Trees");
+      })
+   }
 })
-
-
