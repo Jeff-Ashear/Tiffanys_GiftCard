@@ -36,7 +36,7 @@ function resetSize() {
   h = 0;
   vmin = 0;
   w = canvas.width = window.innerWidth;
-  h = canvas.height = window.innerHeight;
+  h = canvas.height = 6100;
   vmin = w > h ? h : w;
 }
 

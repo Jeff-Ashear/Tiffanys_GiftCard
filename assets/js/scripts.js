@@ -137,7 +137,7 @@ $('#garden1').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('garden1').attr('src', './assets/images/garden1.JPG')
+         $('#garden1').attr('src', './assets/images/garden1.JPG')
       }, 2000)
    } else {
       confirm("You missed a present!")
@@ -149,7 +149,7 @@ $('#garden1').click(function() {
 $('#jeffAndQueso').click(function () {
    if (clicked7 == true) {
       setTimeout(function () {
-         $("#text9").text("We have a present for you!")
+         $("#text9").text("So we have a present for you!")
       }, 750)
 
       setTimeout(function () {
@@ -172,7 +172,7 @@ $('#outsideTogether').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('#outsidedTogether').attr('src', './assets/images/outsideTogether.jpg')
+         $('#outsideTogether').attr('src', './assets/images/outsideTogether.jpg')
       }, 2000);
 
       setTimeout(function() {
@@ -193,15 +193,33 @@ $('#giftCard').click(function() {
 
       setTimeout(function() {
          $('#giftCard').attr('src', './assets/images/gift-flat.png')
-      }, 1500);
+      }, 2000);
 
       setTimeout(function() {
-         $('#text14').text("I here this place has great trees, and are experts at shipping them so they arrive alive and intact.")
-      }, 2250);
+         $('#text14').text("I hear this place has great trees, and are experts at shipping them so they arrive alive and intact.")
+      }, 3000);
 
       setTimeout(function() {
          $('#fastTrees').attr('href', 'http://www.fast-growing-trees.com');
          $('#fastTrees').text("Fast Growing Trees");
-      })
+      }, 3500);
+   
+      setTimeout(function() {
+         $('#text15').text("If you want to buy from them, just use the info on the card from your stocking.");
+      }, 4000);
+
+      setTimeout(function() {
+         $('#text16').text("I have a discount code I will find for this place too if you're interested.");
+      }, 5000);
+
+      setTimeout(function() {
+         $('#text17').text("If you want to go somewhere local, you can pick a place and I'll set everything up for you.")
+      }, 6000);
+      
+      setTimeout(function() {
+         $('#text18').text("MERRY CHRISTMAS TIFFANY! :*")
+      }, 7000);
+   } else {
+      confirm("You missed a present!")
    }
 })
