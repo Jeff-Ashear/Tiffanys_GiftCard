@@ -49,7 +49,7 @@ $('#tiffAndWrenna').click(function () {
 $('#rainbow').click(function () {
    if (clicked1 == true) {
       setTimeout(function () {
-         $('#rainbow').attr('src', 'assets/images/rainbow.jpg')
+         $('#rainbow').attr('src', './assets/images/rainbow.jpg')
       }, 750);
 
       setTimeout(function () {
@@ -69,17 +69,29 @@ $('#wrenna1').click(function() {
       }, 750);
 
       setTimeout(function() {
-         $('#wrenna1').attr('src', 'assets/images/wrenna1.jpg')
+         $('#wrenna1').attr('src', './assets/images/wrenna1.jpg')
       }, 2000);
    } else {
-      confirm("You mised a present!")
+      confirm("You missed a present!")
    }
 
    clicked3 = true;
 });
 
 $('#jeffAndWrenna').click(function() {
+   if (clicked3 == true) {
+      setTimeout(function() {
+         $('#text4').text("And I love you sooooooooooooooooo much. Meep. :*")
+      }, 750);
 
+      setTimeout(function() {
+         $('#jeffAndWrenna').attr('src', './assets/images/jeffAndWrenna')
+      }, 2000);
+   } else {
+      confirm("You missed a present!")
+   }
+
+   clicked4 = true;
 });
 
 
