@@ -65,7 +65,7 @@ $('#rainbow').click(function () {
 $('#wrenna1').click(function() {
    if(clicked2 == true){
       setTimeout(function() {
-         $('#text3').text('Wrenna loves you sooooo much. :"')
+         $('#text3').text('Wrenna loves you sooooo much.')
       }, 750);
 
       setTimeout(function() {
